@@ -107,3 +107,5 @@ D:\visual studio project\XUnitTest\XUnitTest\obj\Debug\net8.0\refint\XUnitTest.d
 D:\visual studio project\XUnitTest\XUnitTest\obj\Debug\net8.0\XUnitTest.pdb
 D:\visual studio project\XUnitTest\XUnitTest\obj\Debug\net8.0\XUnitTest.genruntimeconfig.cache
 D:\visual studio project\XUnitTest\XUnitTest\obj\Debug\net8.0\ref\XUnitTest.dll
+D:\visual studio project\XUnitTest\XUnitTest\obj\Debug\net8.0\XUnitTest.sourcelink.json
+D:\visual studio project\XUnitTest\XUnitTest\bin\Debug\net8.0\FakeItEasy.dll

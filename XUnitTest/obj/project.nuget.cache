@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "w9ZHjeIB9l8Cp1fOXq8xmq0DZ4cyfd5UxQHjM7tlDHtvUHrQrzmuioDpfZLZq3Q/c/tR4TVp3CghRnYCfOAd9Q==",
+  "dgSpecHash": "7sPgV+aortJvzAN+TO83DgzbplfKjFzbP8wErNlVhXagjpoQMnamrwbWho0JDqu6nJfkW1rpd8+40Vcj1RC9LQ==",
   "success": true,
   "projectFilePath": "D:\\visual studio project\\XUnitTest\\XUnitTest\\XUnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\calculator\\1.0.0.1\\calculator.1.0.0.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\fakeiteasy\\8.1.0\\fakeiteasy.8.1.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\fluentassertions\\6.12.0\\fluentassertions.6.12.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.net.test.sdk\\17.6.0\\microsoft.net.test.sdk.17.6.0.nupkg.sha512",

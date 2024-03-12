@@ -49,6 +49,10 @@
               "target": "Package",
               "version": "[1.0.0.1, )"
             },
+            "FakeItEasy": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
             "FluentAssertions": {
               "target": "Package",
               "version": "[6.12.0, )"

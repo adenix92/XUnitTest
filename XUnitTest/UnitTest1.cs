@@ -2,18 +2,29 @@ using Tranform.Try;
 using FluentAssertions;
 using NSubstitute;
 using FluentAssertions.Extensions;
+using XUnitTest.Services;
+using XUnitTest.IServices;
+using FakeItEasy;
 
 namespace XUnitTest
 {
     public class UnitTest1
     {
+        private readonly NetworkServices _networkServices;
         private readonly Calculator _tus;
+        private readonly IServices.IServices _servicess;
         public UnitTest1()
         {
             _tus = new Calculator();
+            _servicess = A.Fake<IServices.IServices>();
 
         }
 
+        [Fact]
+        public void Iservices_Runining_Return()
+        {
+           A.CallTo(()=>_servicess.IsRunning()).Returns(true);
+        }
         static int sumTwoDigit(int[] digit)
         {
             int sum = 0;
@@ -57,7 +68,7 @@ namespace XUnitTest
         public void checkDateTime_ReturnofDate()
         {
             //arrange
-            var result = new NetworkServices();
+            var result = new NetworkServices(_servicess);
             //act
             var s = result.LastPingDate();
             //assert
@@ -71,8 +82,28 @@ namespace XUnitTest
 
 public class NetworkServices
 {
+    private readonly IServices _services;
+    public NetworkServices(IServices services)
+    {
+        _services = services;
+    }
+
     public DateTime LastPingDate()
     {
         return DateTime.Now;
+    }
+
+    //
+    public string IsRunings()
+    {
+        if (_services.IsRunning())
+        {
+            return "The services is runing";
+        }
+        else
+        {
+            return "The services is not runing";
+        }
+        
     }
 }
